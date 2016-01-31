@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.1" language="hu_HU">
 <context>
     <name>Backup</name>
     <message>
         <location filename="../qml/generic/Backup.qml" line="24"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Beállítások</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="33"/>
         <source>Refreshing backup sizes</source>
-        <translation>Mise à jour de la Taille des Sauvegardes</translation>
+        <translation>Mentés méretének frissítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="45"/>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>Unknown Size</source>
-        <translation>Taille Inconnue</translation>
+        <translation>Ismeretlen méret</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="45"/>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>Total:</source>
-        <translation>Total:</translation>
+        <translation>Összesen:</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="70"/>
         <source>Refresh Backup Sizes</source>
-        <translation>Actualiser la Tailles des Sauvegardes</translation>
+        <translation>Mentés méretének frissítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="76"/>
         <source>Loading backup sizes can sometimes fail. In this situation, you can backup &apos;blind&apos;.</source>
-        <translation>Charger les Tailles de sauvegardes peut parfois échouer. Dans cette situation, vous pouvez sauvegarder en «aveugle».</translation>
+        <translation>A mentés méretének kiszámítása néha nem sikerül. Ebben az esetben készíthetsz mentést "vakon".</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="105"/>
         <source>Create Backup Blind</source>
-        <translation>Créer une sauvegarde aveugle</translation>
+        <translation>Mentés "vakon"</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="82"/>
         <source>Choose Backup Filename</source>
-        <translation>Choisissez le Nom du fichier de la Sauvegarde</translation>
+        <translation>Válaszd ki a mmentés nevét</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="94"/>
         <source>Select Restore File</source>
-        <translation>Sélectionnez le fichier à restaurer</translation>
+        <translation>Visszaállítási fájl kiválasztása</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="105"/>
         <source>Create Backup</source>
-        <translation>Créer une sauvegarde</translation>
+        <translation>Mentés készítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="110"/>
         <source>Restore Backup</source>
-        <translation>Restaurer la sauvegarde</translation>
+        <translation>Mentés visszaállítása</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="90"/>
         <location filename="../qml/generic/Backup.qml" line="101"/>
         <source>Blackberry Backup (*.bbb)</source>
-        <translation>Sauvegarde Blackberry (*.bbb)</translation>
+        <translation>Blackberry mentés (*.bbb)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="117"/>
         <source>Your device needs a Blackberry ID to perform backups or restores!</source>
-        <translation>Votre appareil a besoin d'un identifiant BlackBerry ID pour effectuer des sauvegardes ou restaurations!</translation>
+        <translation>Az eszközödnek szüksége van egy Blackberry ID-ra a mentéshez, visszaállításhoz!</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="121"/>
         <source>Please note that backups can take a long time, depending on your device data.</source>
-        <translation>S'il vous plaît veuillez noter que les sauvegardes peuvent prendre un certain temps, en fonction des données de votre appareil.</translation>
+        <translation>A mentés hosszú ideig is eltarthat az eszközön lévő adatoktól függően.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="136"/>
         <source>Creating Backup (%1%)</source>
-        <translation>Création d'une sauvegarde (%1%)</translation>
+        <translation>Mentés készítése (%1%)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="136"/>
         <source>Restoring Backup (%1%)</source>
-        <translation>Restauration d'une sauvegarde (%1%)</translation>
+        <translation>Mentés visszaállítása (%1%)</translation>
     </message>
 </context>
 <context>
@@ -97,12 +97,12 @@
     <message>
         <location filename="../qml/generic/Boot.qml" line="11"/>
         <source>Boot Communication</source>
-        <translation>Communication de Démarrage (Boot)</translation>
+        <translation>Kommunikáció indításkor</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="18"/>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>Információ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="22"/>
@@ -117,27 +117,27 @@
     <message>
         <location filename="../qml/generic/Boot.qml" line="30"/>
         <source>Debug Mode</source>
-        <translation>Mode de Débogage</translation>
+        <translation>Hibakeresési mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="36"/>
         <source>Reboot after</source>
-        <translation>Redémarrer après</translation>
+        <translation>Újraindítás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="43"/>
         <source>Connecting to bootrom</source>
-        <translation>Connexion au secteur de démarrage (bootrom)</translation>
+        <translation>Csatlakozás a bootrom-hoz</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="50"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Leállít</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="55"/>
         <source>Detected devices:</source>
-        <translation>Périphériques détectés:</translation>
+        <translation>Érzékelt eszközök:</translation>
     </message>
 </context>
 <context>
@@ -145,7 +145,7 @@
     <message>
         <location filename="../qml/generic/UI/CircleProgress.qml" line="117"/>
         <source>%1 of %2</source>
-        <translation>%1 sur %2</translation>
+        <translation>%1 a %2 -ból</translation>
     </message>
 </context>
 <context>
@@ -153,32 +153,32 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="12"/>
         <source>Device Information</source>
-        <translation>Informations sur le périphérique</translation>
+        <translation>Eszköz információ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="18"/>
         <source>Tools</source>
-        <translation>Outils</translation>
+        <translation>Eszközök</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="22"/>
         <source>Wipe</source>
-        <translation>Nettoyage de sécurité</translation>
+        <translation>Törlés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="27"/>
         <source>Factory Reset</source>
-        <translation>Réinitialisation sortie d'usine</translation>
+        <translation>Gyári beállítás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="32"/>
         <source>Reboot</source>
-        <translation>Redémarrage</translation>
+        <translation>Újraindítás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="44"/>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="49"/>
@@ -197,12 +197,12 @@
         <location filename="../qml/generic/Device.qml" line="164"/>
         <location filename="../qml/generic/Device.qml" line="184"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation>Ismeretlen</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="52"/>
         <source>HW Name</source>
-        <translation>Nom du Matériel</translation>
+        <translation>Hardver megnevezése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="61"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="76"/>
         <source>BSN</source>
-        <translation>Numéro de Série BSN</translation>
+        <translation>BSN</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="90"/>
@@ -227,55 +227,55 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="98"/>
         <source>Radio</source>
-        <translation>Radio</translation>
+        <translation>Rádió</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="106"/>
         <source>HW</source>
-        <translation>Matériel</translation>
+        <translation>Hardver</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="114"/>
         <source>Restrictions</source>
-        <translation>Restrictions</translation>
+        <translation>Korlátozások</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="118"/>
         <location filename="../qml/generic/Device.qml" line="150"/>
         <source>None</source>
-        <translation>Aucun</translation>
+        <translation>Nincs</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="122"/>
         <source>Setup Complete</source>
-        <translation>Configuration terminée</translation>
+        <translation>Beállítás befejezve</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="126"/>
         <location filename="../qml/generic/Device.qml" line="134"/>
         <source>True</source>
-        <translation>Vrai</translation>
+        <translation>Igaz</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="126"/>
         <location filename="../qml/generic/Device.qml" line="134"/>
         <source>False</source>
-        <translation>Faux</translation>
+        <translation>Hamis</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="130"/>
         <source>Developer Mode</source>
-        <translation>Mode développeur</translation>
+        <translation>Fejlesztői mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="138"/>
         <source>Battery</source>
-        <translation>Batterie</translation>
+        <translation>Akkumulátor</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="146"/>
         <source>Connection</source>
-        <translation>Connexion</translation>
+        <translation>Csatlakozás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="150"/>
@@ -285,28 +285,28 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="154"/>
         <source>Refurbished Date</source>
-        <translation>Date de remise au propre</translation>
+        <translation>Újrahasznosítás dátuma</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="160"/>
         <location filename="../qml/generic/Device.qml" line="163"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>Soha</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="165"/>
         <source>Clear</source>
-        <translation>Effacer</translation>
+        <translation>Töröl</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="165"/>
         <source>Set</source>
-        <translation>Valider</translation>
+        <translation>Beállít</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="180"/>
         <source>Free Disk Space</source>
-        <translation>Espace disque disponible</translation>
+        <translation>Szabad terület</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="184"/>
@@ -319,12 +319,12 @@
     <message>
         <location filename="../qml/generic/Downloader.qml" line="45"/>
         <source>#1. Start RTAS (Requires OS10.2)</source>
-        <translation>#1. Démarrer RTAS ( Nécessite OS10.2 )</translation>
+        <translation>#1. RTAS indítás (OS10.2 szükséges)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Downloader.qml" line="49"/>
         <source>Start RTAS</source>
-        <translation>Démarrer RTAS</translation>
+        <translation>RTAS indítás</translation>
     </message>
 </context>
 <context>
@@ -332,84 +332,94 @@
     <message>
         <location filename="../qml/generic/Extract.qml" line="46"/>
         <source>Percentages are not entirely accurate for QNX6 files.</source>
-        <translation>Les pourcentages ne sont pas tout à fait exacts pour les fichiers QNX6.</translation>
+        <translation>Percentages are not entirely accurate for QNX6 files.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="55"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Leállít</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="108"/>
         <location filename="../qml/generic/Extract.qml" line="119"/>
         <source>Extract Signed</source>
-        <translation>Extraire Fichiers Signés</translation>
+        <translation>Signed fájl kitömörítés</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="115"/>
+        <source>Signed Containers</source>
+        <translation>Signed Containers</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="126"/>
         <location filename="../qml/generic/Extract.qml" line="221"/>
         <source>User</source>
-        <translation>Utilisateur</translation>
+        <translation>Felhasználó</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="132"/>
         <source>OS</source>
-        <translation>OS</translation>
+        <translation>ОS</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="138"/>
         <source>Radio</source>
-        <translation>Radio</translation>
+        <translation>Rádió</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="150"/>
         <source>PINList</source>
-        <translation>PINList</translation>
+        <translation>PIN Lista</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="71"/>
         <source>Create Autoloader</source>
-        <translation>Créer un Lanceur (Autoloader)</translation>
+        <translation>Autoloader készítése</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="78"/>
+        <source>Signed Images</source>
+        <translation>Signed képfájlok</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="81"/>
         <source>Create from Folder</source>
-        <translation>Créer à partir du Dossier</translation>
+        <translation>Készítés könyvtárból</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="89"/>
         <source>Create from Files</source>
-        <translation>Créer à Partir des Fichiers</translation>
+        <translation>Készítés fájlból</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="99"/>
         <source>Create Autoloader .exe from .signed images</source>
-        <translation>Créer un lanceur (Autoloader) .exe à partir d'images .signed</translation>
+        <translation>Autoloader.exe készítése .signed fájlból</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="63"/>
         <source>Extraction Tools</source>
-        <translation>Outils d&apos;Extraction</translation>
+        <translation>Kitömörítési eszközök</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="154"/>
         <source>Split .signed from autoloader .exe, .bar or .zip</source>
-        <translation>Scinder le .signed venant du Lanceur (Autoloader) .exe, .bar ou .zip</translation>
+        <translation>Signed fájl kitömörítése autoloader.exe, .bar vagy .zip fájlból</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="166"/>
         <source>Extracts all bar archives from a debrick/repair .signed</source>
-        <translation>Extraction de toutes les archives .bar à partir d'un fichier debrick/repair .signed</translation>
+        <translation>Minde .bar fájl kitömörítése debrick/repair .signed fájlból</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="170"/>
         <source>Note: To extract apps from a .bar, please split it first (above)</source>
-        <translation>Remarque: Pour extraire des applications à partir d&apos;un .bar, s'il vous plaît veuillez le scinder d'abord(ci-dessus)</translation>
+        <translation>Info: A .bar fájlok kitömörítéséhez előbb szét kell őket szedni.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="209"/>
         <source>Dump Contents</source>
-        <translation>Vider le Contenu</translation>
+        <translation>Tartalom kimentése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="216"/>
@@ -419,67 +429,57 @@
     <message>
         <location filename="../qml/generic/Extract.qml" line="226"/>
         <source>Boot</source>
-        <translation>Démarrage</translation>
+        <translation>Boot</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="230"/>
         <source>Dump all file contents</source>
-        <translation>Vider tous le contenus des fichiers</translation>
+        <translation>Összes fájl tartalmának kimentése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="179"/>
         <source>Extract Image</source>
-        <translation>Extraire l'Image</translation>
+        <translation>Image fájl kitömörítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="27"/>
         <source>Splitting Autoloader</source>
-        <translation>Découpage du Lanceur (Autoloader)</translation>
+        <translation>Autoloader szétvágása</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="28"/>
         <source>Combining Autoloader</source>
-        <translation>Combinaison du Lanceur (Autoloader)</translation>
+        <translation>Autoloader összerakása</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="29"/>
         <source>Extracting Image</source>
-        <translation>Extraction de l'image</translation>
+        <translation>Image fájl kitömörítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="30"/>
         <source>Extracting Apps</source>
-        <translation>Extraction des Apps</translation>
+        <translation>Alkalmazások kitömörítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="31"/>
         <source>Fetching required files</source>
-        <translation>Téléchargement des fichiers requis</translation>
+        <translation>Szükséges fájlok megszerzése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="32"/>
         <source>Waiting</source>
-        <translation>Attente</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="78"/>
-        <source>Signed Images</source>
-        <translation>Images signées</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="115"/>
-        <source>Signed Containers</source>
-        <translation>Conteneurs signés</translation>
+        <translation>Várakozás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="199"/>
         <source>Extracts filesystem image</source>
-        <translation>Extrait d&apos;image du système de fichiers</translation>
+        <translation>Fájlrendszer kép kitömörítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="161"/>
         <source>Extract Apps</source>
-        <translation>Extrait les Applications</translation>
+        <translation>Alkalmazások kitömörítése</translation>
     </message>
 </context>
 <context>
@@ -487,134 +487,134 @@
     <message>
         <location filename="../qml/generic/Installer.qml" line="34"/>
         <source>Please be patient while the installation zip is extracted.</source>
-        <translation>S'il vous plaît soyez patient pendant que le zip d&apos;installation est extrait.</translation>
+        <translation>Légy türelemmel, amíg a telepítöt kitömörítem.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="47"/>
         <source>Firmware Update</source>
-        <translation>Mise à jour du Firmware</translation>
+        <translation>Firmware</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="47"/>
         <source>Install</source>
-        <translation>Installation</translation>
+        <translation>Telepítés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="74"/>
         <source>To install &lt;b&gt;.bar&lt;/b&gt; files such as applications or firmware, you can just &lt;b&gt;Drag and Drop&lt;/b&gt; to this page. Otherwise, select the options below:</source>
-        <translation>Pour installer des &lt;b&gt;.bar fichiers&lt;/b&gt; tels que des applications ou firmware, vous pouvez simplement &lt;b&gt;glisser-déposer&lt;/b&gt;. Sinon, sélectionnez les options ci-dessous:</translation>
+        <translation>A .bar fájlok telepítéséhez csak húzd ide a fájlt. Egyébiránt választhatod a következő opciókat is:</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="82"/>
         <source>Install applications to device</source>
-        <translation>Installer les applications sur l'appareil</translation>
+        <translation>Alkalmazások telepítése az eszközre</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="91"/>
         <source>Blackberry Installable (*.bar)</source>
-        <translation>Fichier Blackberry Installable (*.bar)</translation>
+        <translation>Blackberry alkalmazás (*.bar)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="94"/>
         <source>Install Folder</source>
-        <translation>Dossier d&apos;Installation</translation>
+        <translation>Könyvtárból telepítés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="99"/>
         <location filename="../qml/generic/Installer.qml" line="113"/>
         <source>Error: Your device can only process one task at a time. Please wait for backup/restore process to complete.&lt;br&gt;</source>
-        <translation>Erreur: Votre appareil ne peut traiter qu&apos;une seule tâche à la fois. S&apos;il vous plaît attendre pour la sauvegarde / processus de restauration à compléter.&lt;br&gt;</translation>
+        <translation>Hiba: Az eszközöd csak egy folyamatot kezel egy időben. Kérlek várd meg a mentés/visszaállítás folyamat végét.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="101"/>
         <source>Select Folder</source>
-        <translation>Sélectionner un Dossier</translation>
+        <translation>Válassz könyvtárat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="108"/>
         <source>Install Files</source>
-        <translation>Installer les Fichiers</translation>
+        <translation>Fájlok telepítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="115"/>
         <source>Select Files</source>
-        <translation>Sélectionnez les Fichiers</translation>
+        <translation>Fájlok kiválasztása</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="20"/>
         <source>View Install (%1)</source>
-        <translation>Voir l'Installation (%1)</translation>
+        <translation>(%1) telepítésének megtekintése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Sending %1</source>
-        <translation>Envoi de %1</translation>
+        <translation>%1 küldése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Installing %1</source>
-        <translation>Installation de %1</translation>
+        <translation>%1 telepítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Sent %1</source>
-        <translation>%1 Envoyé</translation>
+        <translation>%1 elküldve</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="97"/>
         <location filename="../qml/generic/Installer.qml" line="111"/>
         <source>Error: Your device can only process one task at a time. Please wait for previous install to complete.&lt;br&gt;</source>
-        <translation>Erreur: Votre appareil ne peut traiter une tâche à la fois. Se il vous plaît attendre l&apos;installation précédente à compléter. &lt;br&gt;</translation>
+        <translation>Hiba: Az eszközöd csak egy folyamatot kezel egy időben. Kérlek várd meg az előző telepítési folyamat végét.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="125"/>
         <source>Only install newer apps</source>
-        <translation>N'iInstaller uniquement que les applications avec une version plus récente</translation>
+        <translation>Csak az újabb alkalmazások telepítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="139"/>
         <source>Refresh</source>
-        <translation>Rafraîchir</translation>
+        <translation>Lista frissítése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="145"/>
         <source>Your Applications</source>
-        <translation>Vos Applications</translation>
+        <translation>Alkalmazásaid</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="233"/>
         <source>Log</source>
-        <translation>Log</translation>
+        <translation>Napló</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Use &apos;Refresh&apos; to update list</source>
-        <translation>Utilisez &apos;Rafraîchir&apos; pour mettre à jour la liste</translation>
+        <translation>Használd a "Lista frissítése" gombot az újratöltéshez</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Your device has not completed setup</source>
-        <translation>Votre appareil n&apos;a pas terminé la configuration</translation>
+        <translation>Nem fejezted be az eszköz beállítását</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Device disconnected</source>
-        <translation>Appareil déconnecté</translation>
+        <translation>Eszköz leválasztva</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="177"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Beállítások</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="179"/>
         <source>Uninstall Marked</source>
-        <translation>Désinstaller la sélection</translation>
+        <translation>Kijelöltek törlése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="186"/>
         <source>Show Installed Apps</source>
-        <translation>Voir les Apps Installées</translation>
+        <translation>Telepített alkalmazások mutatása</translation>
     </message>
 </context>
 <context>
@@ -622,7 +622,7 @@
     <message>
         <location filename="../src/search/scanner.h" line="68"/>
         <source>No Release</source>
-        <translation>Pas de numéro de version</translation>
+        <translation>Nincs újabb kiadás</translation>
     </message>
 </context>
 <context>
@@ -631,23 +631,23 @@
         <location filename="../qml/generic/Search.qml" line="23"/>
         <location filename="../qml/generic/Search.qml" line="125"/>
         <source>Download</source>
-        <translation>Télécharger</translation>
+        <translation>Letöltés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="38"/>
         <location filename="../qml/generic/Search.qml" line="135"/>
         <source>Cancel Download</source>
-        <translation>Annuler le Téléchargement</translation>
+        <translation>Letöltés megszakítása</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="53"/>
         <source>Searching...</source>
-        <translation>Recherche...</translation>
+        <translation>Keresés...</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="53"/>
         <source>Search</source>
-        <translation>Rechercher</translation>
+        <translation>Keresés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="61"/>
@@ -657,113 +657,113 @@
     <message>
         <location filename="../qml/generic/Search.qml" line="64"/>
         <source>Version Lookup</source>
-        <translation>Recherche de Version</translation>
+        <translation>Verzió keresés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="76"/>
         <source>Success. No updates were available.</source>
-        <translation>Succès. Aucune mise à jour sont disponibles.</translation>
+        <translation>Sikeres. Nincs elérhető frissítés.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="85"/>
         <source>Download For</source>
-        <translation>Télécharger pour</translation>
+        <translation>Letöltés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="88"/>
         <location filename="../qml/generic/Search.qml" line="224"/>
         <source>Device</source>
-        <translation>Appareil</translation>
+        <translation>Készülék</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="94"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation>Ismeretlen készülék</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="100"/>
         <source>Connected</source>
-        <translation>Connecté</translation>
+        <translation>Csatlakoztatva</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="100"/>
         <source>As Searched</source>
-        <translation>Comme recherché</translation>
+        <translation>As Searched</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="118"/>
         <source>Grab Links</source>
-        <translation>Télécharger les Liens</translation>
+        <translation>Linkek mentése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="125"/>
         <source>Verifying</source>
-        <translation>Vérification</translation>
+        <translation>Ellenőrzés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="74"/>
         <source>Server did not respond as expected [%1].</source>
-        <translation>Le serveur n&apos;a pas répondu comme prévu [%1].</translation>
+        <translation>A szerver nem válaszol [%1].</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="130"/>
         <source>View Download (%1%)</source>
-        <translation>Voir Téléchargement (%1%)</translation>
+        <translation>Letöltés megtekintése (%1%)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="150"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
+        <translation>Elrejt</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="150"/>
         <source>Show Settings</source>
-        <translation>Afficher les paramètres</translation>
+        <translation>Beállítások megtekintése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="161"/>
         <source>Whitelist Settings</source>
-        <translation>Paramètres de la liste blanche</translation>
+        <translation>Engedélyezési beállítások</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="166"/>
         <source>Finds updates approved by other carriers</source>
-        <translation>Trouver les mises à jour approuvées par d&apos;autres opérateurs</translation>
+        <translation>Más szolgáltatótól származó frissítés keresése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="194"/>
         <source>Country</source>
-        <translation>Pays</translation>
+        <translation>Ország</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="205"/>
         <source>Carrier</source>
-        <translation>Opérateur</translation>
+        <translation>Szolgáltató</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="219"/>
         <source>Search For</source>
-        <translation>Rechercher pour</translation>
+        <translation>Keresés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="257"/>
         <source>Any</source>
-        <translation>Tout</translation>
+        <translation>Bármelyik</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="273"/>
         <source>Variant</source>
-        <translation>Variante</translation>
+        <translation>Verzió</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="290"/>
         <source>Mode</source>
-        <translation>Mode</translation>
+        <translation>Mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="291"/>
         <source>Upgrade</source>
-        <translation>Mise à jour</translation>
+        <translation>Frissítés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="291"/>
@@ -773,58 +773,58 @@
     <message>
         <location filename="../qml/generic/Search.qml" line="388"/>
         <source>Selected: %1 Apps</source>
-        <translation>Sélectionné: %1 Apps</translation>
+        <translation>Kiválasztva: %1 alkalmazás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="388"/>
         <location filename="../qml/generic/Search.qml" line="389"/>
         <source>All (%1)</source>
-        <translation>Tous (%1)</translation>
+        <translation>Összes (%1)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="389"/>
         <source>Needed: %1 Apps</source>
-        <translation>Requis: %1 Apps</translation>
+        <translation>Szükséges: %1 alkalmazás</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="460"/>
         <source>(older)</source>
-        <translation>(plus ancien)</translation>
+        <translation>(régebbi)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="460"/>
         <source>(downloaded)</source>
-        <translation>(téléchargé)</translation>
+        <translation>(letöltve)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="485"/>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="384"/>
         <source>1700.0 MB</source>
-        <translation>1700.0 Мo</translation>
+        <translation>1700.0 МБ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="408"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Beállítások</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="411"/>
         <source>Check All</source>
-        <translation>Tout Cocher</translation>
+        <translation>Összes kijelölése</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="420"/>
         <source>Check All Needed</source>
-        <translation>Cocher Tout le Nécessaire</translation>
+        <translation>Mind szükséges</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="429"/>
         <source>Uncheck All</source>
-        <translation>Tout Décocher</translation>
+        <translation>Összes kiválasztás törlése</translation>
     </message>
 </context>
 <context>
@@ -832,32 +832,32 @@
     <message>
         <location filename="../qml/generic/Title.qml" line="46"/>
         <source>Advanced</source>
-        <translation>Avancé</translation>
+        <translation>Hozzáértő mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="79"/>
         <source>Device</source>
-        <translation>Appareil</translation>
+        <translation>Eszköz</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="83"/>
         <source>Extract</source>
-        <translation>Extraire</translation>
+        <translation>Kitömörítés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="87"/>
         <source>Search</source>
-        <translation>Chercher</translation>
+        <translation>Keres</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="91"/>
         <source>Backup</source>
-        <translation>Sauvegarde</translation>
+        <translation>Mentés</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="95"/>
         <source>Install</source>
-        <translation>Installer</translation>
+        <translation>Telepítés</translation>
     </message>
 </context>
 <context>
@@ -865,52 +865,52 @@
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="16"/>
         <source>These tools require a USB connection</source>
-        <translation>Ces outils nécessitent une connexion USB</translation>
+        <translation>Az eszköz USB kapcsolatot igényel</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="22"/>
         <source>Password:</source>
-        <translation>Mot de passe:</translation>
+        <translation>Jelszó:</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="27"/>
         <source>Incorrect</source>
-        <translation>Incorrect</translation>
+        <translation>Helytelen</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="47"/>
         <source>Hide Password</source>
-        <translation>Masquer mot de passe</translation>
+        <translation>Jelszó elrejtése</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="47"/>
         <source>Show Password</source>
-        <translation>Afficher le mot de passe</translation>
+        <translation>Jelszó mutatása</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="83"/>
         <source>Detected %1 Blackberry USB device(s) in %2 mode.</source>
-        <translation>%1 appareil(s) USB Blackberry en mode %2.</translation>
+        <translation>%1 Blackberry eszközt érzékelek %2 módban.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="87"/>
         <source>Talking to %1 possible device(s).</source>
-        <translation>En discussion avec %1 appareil(s) possible(s).</translation>
+        <translation>Kommunikáció %1 lehetséges eszközzel.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="56"/>
         <source>There was an issue connecting.</source>
-        <translation>Il y avait un problème de connexion.</translation>
+        <translation>Hiba történt a kapcsolódás során.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="59"/>
         <source>Try Again</source>
-        <translation>Essayer à Nouveau</translation>
+        <translation>Újra próbál</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="68"/>
         <source>Searching for USB device</source>
-        <translation>Recherche d&apos;un appareil USB</translation>
+        <translation>USB eszközök keresése</translation>
     </message>
 </context>
 <context>
@@ -918,27 +918,27 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="7"/>
         <source>Version Lookup</source>
-        <translation>Recherche de Version</translation>
+        <translation>Verzió keresés</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="21"/>
         <source>Stop on:</source>
-        <translation>Arrêt sur:</translation>
+        <translation>Megállít:</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="29"/>
         <source>Next Found</source>
-        <translation>Suivant Trouvé</translation>
+        <translation>Következő találat</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="35"/>
         <source>Next Available Links</source>
-        <translation>Liens suivants disponibles</translation>
+        <translation>Következő elérhető link</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="40"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>Soha</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="68"/>
@@ -948,12 +948,12 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="68"/>
         <source>OS: %1</source>
-        <translation>OS: %1</translation>
+        <translation>ОS: %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="83"/>
         <source>Servers:</source>
-        <translation>Serveurs:</translation>
+        <translation>Szerverek:</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="77"/>
@@ -963,7 +963,7 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="79"/>
         <source>Beta</source>
-        <translation>Bêta</translation>
+        <translation>Beta</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="81"/>
@@ -973,37 +973,37 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="135"/>
         <source>Lookup</source>
-        <translation>Rechercher</translation>
+        <translation>Keresés</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="44"/>
         <source>Stop Scan</source>
-        <translation>Arrêter de chercher</translation>
+        <translation>Megállít</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="44"/>
         <source>Autoscan</source>
-        <translation>Autobalayage</translation>
+        <translation>Automatikus keresés</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="95"/>
         <source>Grab Public Links</source>
-        <translation>Récupérer le Liens Publics</translation>
+        <translation>Linkek mentése</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="95"/>
         <source>No Links Available</source>
-        <translation>Pas de liens disponibles</translation>
+        <translation>Nincs elérhető link</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="144"/>
         <source>History</source>
-        <translation>Historique</translation>
+        <translation>Keresési történet</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="149"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
+        <translation>Elrejt</translation>
     </message>
 </context>
 </TS>

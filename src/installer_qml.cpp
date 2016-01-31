@@ -65,6 +65,11 @@ QQmlListProperty<Apps> InstallNet::appList()
     return QQmlListProperty<Apps>(this, _appList);
 }
 
+QQmlListProperty<Apps> InstallNet::backAppList()
+{
+    return QQmlListProperty<Apps>(this, _back.apps);
+}
+
 void InstallNet::setIp(const QString &ip)
 {
     _ip = ip;
@@ -94,10 +99,26 @@ void InstallNet::setCompleted(const bool &exists)
 
 void InstallNet::setNewLine(const QString &newLine)
 {
-    _newLine = ""; // Otherwise it thinks it didn't change...
+    // Prefix with date
+    QString newLog = QTime().currentTime().toString("[hh:mm:ss] ") + newLine;
+
+    _newLine = ""; // Reset qproperty and notify
     emit newLineChanged();
-    _newLine = newLine + "<br>";
+    _newLine = newLog + "<br>";
     emit newLineChanged();
+    newLog.append("\n");
+    logFile->write(newLog.toLatin1());
+    logFile->flush(); // Update file so it can be viewed in real-time
+    emit hasLogChanged();
+}
+
+bool InstallNet::hasLog() {
+    return logFile->size() > 0;
+}
+
+void InstallNet::openLog() {
+    if (logFile->fileName() != "")
+      openFile(logFile->fileName());
 }
 
 QString InstallNet::backStatus() const {
@@ -124,7 +145,7 @@ QStringList InstallNet::backNames() const {
 QList<double> InstallNet::backSizes() const {
     QList<double> sizes;
     foreach(BackupCategory* cat, _back.categories)
-        sizes.append(cat->bytesize.toLongLong() / (double)(1024.0 * 1024.0));
+        sizes.append(cat->bytesize.toLongLong());
     return sizes;
 }
 

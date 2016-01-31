@@ -19,9 +19,11 @@
 
 BackupInfo::BackupInfo() :
     _progress(0), _size(0), _maxSize(1),
-    _mode(0), _curMode(0), _numMethods(0)
+    _mode(0), _curMode(0), _numMethods(0),
+    _rev(2), _appMode(0)
 {
     _numMethods = 3;
+    _appMode = 7; // 1 + 2 + 3 represents system + bin + data
     categories.append(new BackupCategory("app", "Application Data"));
     categories.append(new BackupCategory("media", "Media"));
     categories.append(new BackupCategory("settings", "Device Settings and Local Contacts/Calendar Data"));
@@ -35,6 +37,9 @@ void BackupInfo::clearModes() {
     categories.clear();
     _curSize.clear();
     _curMaxSize.clear();
+    foreach(Apps* app, apps)
+        app->deleteLater();
+    apps.clear();
     emit curModeChanged();
     emit numMethodsChanged();
 }
@@ -45,6 +50,40 @@ void BackupInfo::addMode(QXmlStreamAttributes cat) {
     emit numMethodsChanged();
     _curSize.append(0);
     _curMaxSize.append(1);
+}
+
+void BackupInfo::addApp(QXmlStreamAttributes cat) {
+    Apps* newApp = new Apps();
+    foreach(QXmlStreamAttribute attr, cat)
+    {
+        QString att = attr.name().toString();
+        QString val = attr.value().toString();
+        if (att == "pkgid")
+            newApp->setPackageId(val);
+        else if (att == "name")
+            newApp->setFriendlyName(val);
+        else if (att == "bytesize")
+            newApp->setSize(val.toInt());
+        else if (att == "version")
+            newApp->setVersion(val);
+        else if (att == "type")
+            newApp->setType(val);
+    }
+    newApp->setIsMarked(true);
+    apps.append(newApp);
+    std::sort(apps.begin(), apps.end(),
+              [=](const Apps* i, const Apps* j) {
+        if (i->type() == "system" && j->type() != "system")
+            return true;
+        if (j->type() == "bin" && i->type() != "bin")
+            return true;
+        return false;
+    }
+    );
+}
+
+void BackupInfo::sortApps() {
+
 }
 
 QString BackupInfo::modeString()
@@ -81,9 +120,40 @@ int BackupInfo::mode() const {
     return _mode;
 }
 
+int BackupInfo::appMode() const {
+    return _appMode;
+}
+
 void BackupInfo::setMode(const int &mode) {
     _mode = mode;
     emit modeChanged();
+}
+
+qint64 BackupInfo::setAppMode(QString mode) {
+    qint64 totalSize = 0;
+    int type = 0;
+    if (mode == "system")
+        type = 1;
+    else if (mode == "data")
+        type = 2;
+    else if (mode == "bin")
+        type = 4;
+
+    if (type == 0)
+        return 0;
+
+    // Toggle mode based on string
+    _appMode ^= type;
+
+    // Are we enabling this mode or disabling it?
+    bool enable = _appMode & type;
+    for (int i = 0; i < apps.count(); i++) {
+        if (apps.at(i)->type() == mode && apps.at(i)->isMarked() != enable) {
+            apps.at(i)->setIsMarked(enable);
+            totalSize += (enable ? 1 : -1) * apps.at(i)->size();
+        }
+    }
+    return totalSize;
 }
 
 QString BackupInfo::curMode() const {
@@ -162,4 +232,8 @@ void BackupInfo::setCurMaxSize(int index, const qint64 &val) {
 
 int BackupInfo::numMethods() const {
     return categories.size();
+}
+
+int BackupInfo::rev() const {
+    return _rev;
 }

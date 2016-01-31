@@ -54,11 +54,13 @@ Item {
             overallValue: i.dgProgress
             curId: i.dgPos + 1
             maxId: i.dgMaxPos
-            text: (((i.curDGProgress != 100) ? ( i.curDGProgress < 50 ? qsTr("Sending %1").arg(i.curInstallName) : qsTr("Installing %1").arg(i.curInstallName)) : qsTr("Sent %1").arg(i.curInstallName))) + translator.lang
+            statusText: ((i.curDGProgress != 100) ? ( i.curDGProgress < 50 ? qsTr("Sending") : qsTr("Installing")) : qsTr("Sent")) + translator.lang
+            text: i.curInstallName
         }
     }
 
     DropArea {
+        id: dragArea
         anchors.fill: parent
         onDropped: {
             if (drop.hasUrls) {
@@ -67,6 +69,11 @@ Item {
             }
         }
     }
+    Rectangle {
+        anchors.fill: parent
+        color: dragArea.containsDrag ? Qt.rgba(0.2,0.2,0.6,0.1) : Qt.rgba(0.0,0.0,0.0,0.0)
+    }
+
     ColumnLayout {
         anchors {fill: parent; margins: 15 }
         Label {

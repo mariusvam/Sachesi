@@ -6,11 +6,55 @@ import "UI" 1.0
 
 ApplicationWindow {
     id: window
-    title: "Sachesi " + version + " RC"
+    title: "Sachesi " + version
     width: 820
     height: 680
     minimumHeight: 540
     minimumWidth: 640
+    function isNewer(newV, oldV){
+
+        var result=false;
+
+        if(typeof newV !== 'object'){ newV=newV.toString().split('.'); }
+        if(typeof oldV !== 'object'){ oldV=oldV.toString().split('.'); }
+
+        for(var i=0; i<(Math.max(newV.length, oldV.length)); i++){
+            if(newV[i] == undefined){ newV[i]=0; }
+            if(oldV[i] == undefined){ oldV[i]=0; }
+
+            if(Number(newV[i])>Number(oldV[i])){
+                result=true;
+                break;
+            }
+            if(newV[i] != oldV[i]){
+                break;
+            }
+        }
+        return(result);
+    }
+
+    Component.onCompleted: {
+        var http = new XMLHttpRequest()
+        var url = "https://raw.githubusercontent.com/xsacha/Sachesi/master/Sachesi.pro";
+        http.open("GET", url, true);
+        http.send(null)
+        http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+                var array = http.responseText.split('\n');
+                array = array.filter(function(e){return e});
+                for (var i = 1; i < 10; i++) {
+                    if (array[i].substring(0, 7) === "VERSION") {
+                        var newVer = array[i].split(' ').pop()
+                        if (isNewer(newVer, version)) {
+                            console.log("NEW VERSION FOUND. DO STUFF HERE")
+                        }
+
+                        break;
+                    }
+                }
+            }
+        }
+    }
 
     Settings {
         id: settings
@@ -77,7 +121,7 @@ ApplicationWindow {
 
         Tab {
             title: qsTr("Device") + translator.lang
-            Device { anchors.fill: parent; }
+            Device { anchors.fill: parent }
         }
         Tab {
             title: qsTr("Extract") + translator.lang

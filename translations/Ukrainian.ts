@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>Backup</name>
     <message>
         <location filename="../qml/generic/Backup.qml" line="24"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Параметри</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="33"/>
         <source>Refreshing backup sizes</source>
-        <translation>Mise à jour de la Taille des Sauvegardes</translation>
+        <translation>Визначення розміру резервної копії</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="45"/>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>Unknown Size</source>
-        <translation>Taille Inconnue</translation>
+        <translation>Розмір невідомий</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="45"/>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>Total:</source>
-        <translation>Total:</translation>
+        <translation>Всього:</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="70"/>
         <source>Refresh Backup Sizes</source>
-        <translation>Actualiser la Tailles des Sauvegardes</translation>
+        <translation>Визначити розмір резервної копії</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="76"/>
         <source>Loading backup sizes can sometimes fail. In this situation, you can backup &apos;blind&apos;.</source>
-        <translation>Charger les Tailles de sauvegardes peut parfois échouer. Dans cette situation, vous pouvez sauvegarder en «aveugle».</translation>
+        <translation>Визначення розміру резервної копії іноді закіфнчується помилкою, Ви можете зробити копію &quot;наосліп&quot;.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="105"/>
         <source>Create Backup Blind</source>
-        <translation>Créer une sauvegarde aveugle</translation>
+        <translation>Створення резервної копії &quot;наосліп&quot;</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="82"/>
         <source>Choose Backup Filename</source>
-        <translation>Choisissez le Nom du fichier de la Sauvegarde</translation>
+        <translation>Введіть ім'я файла резервної копії</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="94"/>
         <source>Select Restore File</source>
-        <translation>Sélectionnez le fichier à restaurer</translation>
+        <translation>Виберіть файл відновлення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="105"/>
         <source>Create Backup</source>
-        <translation>Créer une sauvegarde</translation>
+        <translation>Створити резервну копію</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="110"/>
         <source>Restore Backup</source>
-        <translation>Restaurer la sauvegarde</translation>
+        <translation>Відновити з резервної копії</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="90"/>
         <location filename="../qml/generic/Backup.qml" line="101"/>
         <source>Blackberry Backup (*.bbb)</source>
-        <translation>Sauvegarde Blackberry (*.bbb)</translation>
+        <translation>Файли резервніх копій Blackberry (*.bbb)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="117"/>
         <source>Your device needs a Blackberry ID to perform backups or restores!</source>
-        <translation>Votre appareil a besoin d'un identifiant BlackBerry ID pour effectuer des sauvegardes ou restaurations!</translation>
+        <translation>Пристрою необхідно перевірити Blackberry ID для виконання резервного копіювання і відновлення!</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="121"/>
         <source>Please note that backups can take a long time, depending on your device data.</source>
-        <translation>S'il vous plaît veuillez noter que les sauvegardes peuvent prendre un certain temps, en fonction des données de votre appareil.</translation>
+        <translation>Будь ласка, зверніть увагу, що резервне копіювання може зайняти багато часу в залежності від об'єму даних Вашого пристрою.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="136"/>
         <source>Creating Backup (%1%)</source>
-        <translation>Création d'une sauvegarde (%1%)</translation>
+        <translation>Створення резервної копії (%1%)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="136"/>
         <source>Restoring Backup (%1%)</source>
-        <translation>Restauration d'une sauvegarde (%1%)</translation>
+        <translation>Відновлення (%1%)</translation>
     </message>
 </context>
 <context>
@@ -97,12 +97,12 @@
     <message>
         <location filename="../qml/generic/Boot.qml" line="11"/>
         <source>Boot Communication</source>
-        <translation>Communication de Démarrage (Boot)</translation>
+        <translation>Параметри завантажувача</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="18"/>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="22"/>
@@ -117,27 +117,27 @@
     <message>
         <location filename="../qml/generic/Boot.qml" line="30"/>
         <source>Debug Mode</source>
-        <translation>Mode de Débogage</translation>
+        <translation>Режим відладки</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="36"/>
         <source>Reboot after</source>
-        <translation>Redémarrer après</translation>
+        <translation>Перезавантажити після завершення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="43"/>
         <source>Connecting to bootrom</source>
-        <translation>Connexion au secteur de démarrage (bootrom)</translation>
+        <translation>Підключення до завантажувача</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="50"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="55"/>
         <source>Detected devices:</source>
-        <translation>Périphériques détectés:</translation>
+        <translation>Знайдені пристрої:</translation>
     </message>
 </context>
 <context>
@@ -145,7 +145,7 @@
     <message>
         <location filename="../qml/generic/UI/CircleProgress.qml" line="117"/>
         <source>%1 of %2</source>
-        <translation>%1 sur %2</translation>
+        <translation>%1 з %2</translation>
     </message>
 </context>
 <context>
@@ -153,32 +153,32 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="12"/>
         <source>Device Information</source>
-        <translation>Informations sur le périphérique</translation>
+        <translation>Інформація про пристрій</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="18"/>
         <source>Tools</source>
-        <translation>Outils</translation>
+        <translation>Інструменти</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="22"/>
         <source>Wipe</source>
-        <translation>Nettoyage de sécurité</translation>
+        <translation>Очистка</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="27"/>
         <source>Factory Reset</source>
-        <translation>Réinitialisation sortie d'usine</translation>
+        <translation>Скидання налаштувань</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="32"/>
         <source>Reboot</source>
-        <translation>Redémarrage</translation>
+        <translation>Перезавантаження</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="44"/>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>Ім'я пристрою</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="49"/>
@@ -197,12 +197,12 @@
         <location filename="../qml/generic/Device.qml" line="164"/>
         <location filename="../qml/generic/Device.qml" line="184"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation>Невідомо</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="52"/>
         <source>HW Name</source>
-        <translation>Nom du Matériel</translation>
+        <translation>Ревізія</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="61"/>
@@ -217,65 +217,65 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="76"/>
         <source>BSN</source>
-        <translation>Numéro de Série BSN</translation>
+        <translation>Серійний номер</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="90"/>
         <source>OS</source>
-        <translation>OS</translation>
+        <translation>ОС</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="98"/>
         <source>Radio</source>
-        <translation>Radio</translation>
+        <translation>Радіомодуль</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="106"/>
         <source>HW</source>
-        <translation>Matériel</translation>
+        <translation>Номер моделі</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="114"/>
         <source>Restrictions</source>
-        <translation>Restrictions</translation>
+        <translation>Обмеження</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="118"/>
         <location filename="../qml/generic/Device.qml" line="150"/>
         <source>None</source>
-        <translation>Aucun</translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="122"/>
         <source>Setup Complete</source>
-        <translation>Configuration terminée</translation>
+        <translation>Налаштування закінчене</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="126"/>
         <location filename="../qml/generic/Device.qml" line="134"/>
         <source>True</source>
-        <translation>Vrai</translation>
+        <translation>Так</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="126"/>
         <location filename="../qml/generic/Device.qml" line="134"/>
         <source>False</source>
-        <translation>Faux</translation>
+        <translation>Ні</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="130"/>
         <source>Developer Mode</source>
-        <translation>Mode développeur</translation>
+        <translation>Режим розробки</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="138"/>
         <source>Battery</source>
-        <translation>Batterie</translation>
+        <translation>Батарея</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="146"/>
         <source>Connection</source>
-        <translation>Connexion</translation>
+        <translation>Підключення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="150"/>
@@ -285,33 +285,33 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="154"/>
         <source>Refurbished Date</source>
-        <translation>Date de remise au propre</translation>
+        <translation>Дата відновлення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="160"/>
         <location filename="../qml/generic/Device.qml" line="163"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>Николи</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="165"/>
         <source>Clear</source>
-        <translation>Effacer</translation>
+        <translation>Чисто</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="165"/>
         <source>Set</source>
-        <translation>Valider</translation>
+        <translation>Встановити</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="180"/>
         <source>Free Disk Space</source>
-        <translation>Espace disque disponible</translation>
+        <translation>Вільний дисковий простір</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="184"/>
         <source>%1 GB</source>
-        <translation>%1 GB</translation>
+        <translation>%1 ГБ</translation>
     </message>
 </context>
 <context>
@@ -319,12 +319,12 @@
     <message>
         <location filename="../qml/generic/Downloader.qml" line="45"/>
         <source>#1. Start RTAS (Requires OS10.2)</source>
-        <translation>#1. Démarrer RTAS ( Nécessite OS10.2 )</translation>
+        <translation>#1. Запуск RTAS (Необхідна OS10.2)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Downloader.qml" line="49"/>
         <source>Start RTAS</source>
-        <translation>Démarrer RTAS</translation>
+        <translation>Запуск RTAS</translation>
     </message>
 </context>
 <context>
@@ -332,154 +332,154 @@
     <message>
         <location filename="../qml/generic/Extract.qml" line="46"/>
         <source>Percentages are not entirely accurate for QNX6 files.</source>
-        <translation>Les pourcentages ne sont pas tout à fait exacts pour les fichiers QNX6.</translation>
+        <translation>Проценти не зовсім точні для файлів QNX6.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="55"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="108"/>
         <location filename="../qml/generic/Extract.qml" line="119"/>
         <source>Extract Signed</source>
-        <translation>Extraire Fichiers Signés</translation>
+        <translation>Розпакувати</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="115"/>
+        <source>Signed Containers</source>
+        <translation>Підписані контейнери</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="126"/>
         <location filename="../qml/generic/Extract.qml" line="221"/>
         <source>User</source>
-        <translation>Utilisateur</translation>
+        <translation>Користувач</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="132"/>
         <source>OS</source>
-        <translation>OS</translation>
+        <translation>ОС</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="138"/>
         <source>Radio</source>
-        <translation>Radio</translation>
+        <translation>Радіомодуль</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="150"/>
         <source>PINList</source>
-        <translation>PINList</translation>
+        <translation>PIN-список</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="71"/>
         <source>Create Autoloader</source>
-        <translation>Créer un Lanceur (Autoloader)</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="81"/>
-        <source>Create from Folder</source>
-        <translation>Créer à partir du Dossier</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="89"/>
-        <source>Create from Files</source>
-        <translation>Créer à Partir des Fichiers</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="99"/>
-        <source>Create Autoloader .exe from .signed images</source>
-        <translation>Créer un lanceur (Autoloader) .exe à partir d'images .signed</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="63"/>
-        <source>Extraction Tools</source>
-        <translation>Outils d&apos;Extraction</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="154"/>
-        <source>Split .signed from autoloader .exe, .bar or .zip</source>
-        <translation>Scinder le .signed venant du Lanceur (Autoloader) .exe, .bar ou .zip</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="166"/>
-        <source>Extracts all bar archives from a debrick/repair .signed</source>
-        <translation>Extraction de toutes les archives .bar à partir d'un fichier debrick/repair .signed</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="170"/>
-        <source>Note: To extract apps from a .bar, please split it first (above)</source>
-        <translation>Remarque: Pour extraire des applications à partir d&apos;un .bar, s'il vous plaît veuillez le scinder d'abord(ci-dessus)</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="209"/>
-        <source>Dump Contents</source>
-        <translation>Vider le Contenu</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="216"/>
-        <source>Core</source>
-        <translation>Core</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="226"/>
-        <source>Boot</source>
-        <translation>Démarrage</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="230"/>
-        <source>Dump all file contents</source>
-        <translation>Vider tous le contenus des fichiers</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="179"/>
-        <source>Extract Image</source>
-        <translation>Extraire l'Image</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="27"/>
-        <source>Splitting Autoloader</source>
-        <translation>Découpage du Lanceur (Autoloader)</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="28"/>
-        <source>Combining Autoloader</source>
-        <translation>Combinaison du Lanceur (Autoloader)</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="29"/>
-        <source>Extracting Image</source>
-        <translation>Extraction de l'image</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="30"/>
-        <source>Extracting Apps</source>
-        <translation>Extraction des Apps</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="31"/>
-        <source>Fetching required files</source>
-        <translation>Téléchargement des fichiers requis</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="32"/>
-        <source>Waiting</source>
-        <translation>Attente</translation>
+        <translation>Створити автозавантажувач</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="78"/>
         <source>Signed Images</source>
-        <translation>Images signées</translation>
+        <translation>Підписані  образи</translation>
     </message>
     <message>
-        <location filename="../qml/generic/Extract.qml" line="115"/>
-        <source>Signed Containers</source>
-        <translation>Conteneurs signés</translation>
+        <location filename="../qml/generic/Extract.qml" line="81"/>
+        <source>Create from Folder</source>
+        <translation>Створити з папки</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="89"/>
+        <source>Create from Files</source>
+        <translation>Створити з файлів</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="99"/>
+        <source>Create Autoloader .exe from .signed images</source>
+        <translation>Створення Autoloader.exe з підписаних образів</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="63"/>
+        <source>Extraction Tools</source>
+        <translation>Інструменти для роботи с автозавантажувачем</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="154"/>
+        <source>Split .signed from autoloader .exe, .bar or .zip</source>
+        <translation>Розпаковка autoloader.exe, .bar чи .zip</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="166"/>
+        <source>Extracts all bar archives from a debrick/repair .signed</source>
+        <translation>Витягування всіх bar-файлів з розібраного автозавантажувача</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="170"/>
+        <source>Note: To extract apps from a .bar, please split it first (above)</source>
+        <translation>Примітка: Для того, щоб витягнути bar-файли, необхідно спочатку провести розпаковку автозавантажувача.</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="209"/>
+        <source>Dump Contents</source>
+        <translation>Дамп вмісту</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="216"/>
+        <source>Core</source>
+        <translation>Ядро</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="226"/>
+        <source>Boot</source>
+        <translation>Завантажувач</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="230"/>
+        <source>Dump all file contents</source>
+        <translation>Дамп всіх файлів</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="179"/>
+        <source>Extract Image</source>
+        <translation>Витягнути образ</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="27"/>
+        <source>Splitting Autoloader</source>
+        <translation>Розбирання автозавантажувача</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="28"/>
+        <source>Combining Autoloader</source>
+        <translation>Збирання автозавантажувача</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="29"/>
+        <source>Extracting Image</source>
+        <translation>Витягування образу</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="30"/>
+        <source>Extracting Apps</source>
+        <translation>Витягування програм</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="31"/>
+        <source>Fetching required files</source>
+        <translation>Отримання необхідних файлів</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="32"/>
+        <source>Waiting</source>
+        <translation>Очікування</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="199"/>
         <source>Extracts filesystem image</source>
-        <translation>Extrait d&apos;image du système de fichiers</translation>
+        <translation>Витягування образу файлової системи</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="161"/>
         <source>Extract Apps</source>
-        <translation>Extrait les Applications</translation>
+        <translation>Витягнути програми</translation>
     </message>
 </context>
 <context>
@@ -487,134 +487,134 @@
     <message>
         <location filename="../qml/generic/Installer.qml" line="34"/>
         <source>Please be patient while the installation zip is extracted.</source>
-        <translation>S'il vous plaît soyez patient pendant que le zip d&apos;installation est extrait.</translation>
+        <translation>Будь ласка, дочекайтеся закінчення розпаковки архіву.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="47"/>
         <source>Firmware Update</source>
-        <translation>Mise à jour du Firmware</translation>
+        <translation>Оновлення прошивки</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="47"/>
         <source>Install</source>
-        <translation>Installation</translation>
+        <translation>Установка</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="74"/>
         <source>To install &lt;b&gt;.bar&lt;/b&gt; files such as applications or firmware, you can just &lt;b&gt;Drag and Drop&lt;/b&gt; to this page. Otherwise, select the options below:</source>
-        <translation>Pour installer des &lt;b&gt;.bar fichiers&lt;/b&gt; tels que des applications ou firmware, vous pouvez simplement &lt;b&gt;glisser-déposer&lt;/b&gt;. Sinon, sélectionnez les options ci-dessous:</translation>
+        <translation>Для установки &lt;b&gt;bar&lt;/b&gt;-файлів (програм чи прошивок) просто &lt;b&gt; перетягніть&lt;/b&gt; їх на цю сторінку. Або ж виберіть необхідні параметри нижче:</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="82"/>
         <source>Install applications to device</source>
-        <translation>Installer les applications sur l'appareil</translation>
+        <translation>Установка програм на пристрій</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="91"/>
         <source>Blackberry Installable (*.bar)</source>
-        <translation>Fichier Blackberry Installable (*.bar)</translation>
+        <translation>Установочний файл Blackberry (*.bar)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="94"/>
         <source>Install Folder</source>
-        <translation>Dossier d&apos;Installation</translation>
+        <translation>Встановити з папки</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="99"/>
         <location filename="../qml/generic/Installer.qml" line="113"/>
         <source>Error: Your device can only process one task at a time. Please wait for backup/restore process to complete.&lt;br&gt;</source>
-        <translation>Erreur: Votre appareil ne peut traiter qu&apos;une seule tâche à la fois. S&apos;il vous plaît attendre pour la sauvegarde / processus de restauration à compléter.&lt;br&gt;</translation>
+        <translation>Ошибка: Пристрій може обробляти лише одну задачу за один раз. Будь ласка, дочекайтеся завершення операції резервного копіювання/відновлення.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="101"/>
         <source>Select Folder</source>
-        <translation>Sélectionner un Dossier</translation>
+        <translation>Вибір папки</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="108"/>
         <source>Install Files</source>
-        <translation>Installer les Fichiers</translation>
+        <translation>Встановити файли</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="115"/>
         <source>Select Files</source>
-        <translation>Sélectionnez les Fichiers</translation>
+        <translation>Вибрати файли</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="20"/>
         <source>View Install (%1)</source>
-        <translation>Voir l'Installation (%1)</translation>
+        <translation>Показати установку (%1)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Sending %1</source>
-        <translation>Envoi de %1</translation>
+        <translation>відправка %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Installing %1</source>
-        <translation>Installation de %1</translation>
+        <translation>Установка %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Sent %1</source>
-        <translation>%1 Envoyé</translation>
+        <translation>Відправка %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="97"/>
         <location filename="../qml/generic/Installer.qml" line="111"/>
         <source>Error: Your device can only process one task at a time. Please wait for previous install to complete.&lt;br&gt;</source>
-        <translation>Erreur: Votre appareil ne peut traiter une tâche à la fois. Se il vous plaît attendre l&apos;installation précédente à compléter. &lt;br&gt;</translation>
+        <translation>Помилка: Пристрій може обробляти лише одну задачу за один раз. Будь ласка, дочекайтеся завершення попередньої установки.&lt;br&gt;;</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="125"/>
         <source>Only install newer apps</source>
-        <translation>N'iInstaller uniquement que les applications avec une version plus récente</translation>
+        <translation>Встановлювати лише нові версії програм</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="139"/>
         <source>Refresh</source>
-        <translation>Rafraîchir</translation>
+        <translation>Оновити</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="145"/>
         <source>Your Applications</source>
-        <translation>Vos Applications</translation>
+        <translation>Встановлено</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="233"/>
         <source>Log</source>
-        <translation>Log</translation>
+        <translation>Лог</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Use &apos;Refresh&apos; to update list</source>
-        <translation>Utilisez &apos;Rafraîchir&apos; pour mettre à jour la liste</translation>
+        <translation>Натисніть &quot;Оновити&quot; для оновлення списку</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Your device has not completed setup</source>
-        <translation>Votre appareil n&apos;a pas terminé la configuration</translation>
+        <translation>Налаштування пристрою не завершене</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Device disconnected</source>
-        <translation>Appareil déconnecté</translation>
+        <translation>Пристрій відключений</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="177"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Опції</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="179"/>
         <source>Uninstall Marked</source>
-        <translation>Désinstaller la sélection</translation>
+        <translation>Видалити відмічене</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="186"/>
         <source>Show Installed Apps</source>
-        <translation>Voir les Apps Installées</translation>
+        <translation>Показати встановлені програми</translation>
     </message>
 </context>
 <context>
@@ -622,7 +622,7 @@
     <message>
         <location filename="../src/search/scanner.h" line="68"/>
         <source>No Release</source>
-        <translation>Pas de numéro de version</translation>
+        <translation>Немає оновлень</translation>
     </message>
 </context>
 <context>
@@ -631,200 +631,200 @@
         <location filename="../qml/generic/Search.qml" line="23"/>
         <location filename="../qml/generic/Search.qml" line="125"/>
         <source>Download</source>
-        <translation>Télécharger</translation>
+        <translation>Завантажити прошивку</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="38"/>
         <location filename="../qml/generic/Search.qml" line="135"/>
         <source>Cancel Download</source>
-        <translation>Annuler le Téléchargement</translation>
+        <translation>Скасувати завантаження</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="53"/>
         <source>Searching...</source>
-        <translation>Recherche...</translation>
+        <translation>Йде пошук...</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="53"/>
         <source>Search</source>
-        <translation>Rechercher</translation>
+        <translation>Знайти</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="61"/>
         <source>Delta</source>
-        <translation>Delta</translation>
+        <translation>дельта</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="64"/>
         <source>Version Lookup</source>
-        <translation>Recherche de Version</translation>
+        <translation>Пошук версії</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="76"/>
         <source>Success. No updates were available.</source>
-        <translation>Succès. Aucune mise à jour sont disponibles.</translation>
+        <translation>Готово. Доступні оновлення відсутні.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="85"/>
         <source>Download For</source>
-        <translation>Télécharger pour</translation>
+        <translation>Завантажити для</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="88"/>
         <location filename="../qml/generic/Search.qml" line="224"/>
         <source>Device</source>
-        <translation>Appareil</translation>
+        <translation>Пристрій</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="94"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation>Невідомий пристрій</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="100"/>
         <source>Connected</source>
-        <translation>Connecté</translation>
+        <translation>Підключено</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="100"/>
         <source>As Searched</source>
-        <translation>Comme recherché</translation>
+        <translation>Як шукали</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="118"/>
         <source>Grab Links</source>
-        <translation>Télécharger les Liens</translation>
+        <translation>Отримати посилання</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="125"/>
         <source>Verifying</source>
-        <translation>Vérification</translation>
+        <translation>Перевірка</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="74"/>
         <source>Server did not respond as expected [%1].</source>
-        <translation>Le serveur n&apos;a pas répondu comme prévu [%1].</translation>
+        <translation>Віддалений сервер не відповідає [%1].</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="130"/>
         <source>View Download (%1%)</source>
-        <translation>Voir Téléchargement (%1%)</translation>
+        <translation>Дивитися завантаження (%1%)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="150"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
+        <translation>Приховати</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="150"/>
         <source>Show Settings</source>
-        <translation>Afficher les paramètres</translation>
+        <translation>Показати налаштування</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="161"/>
         <source>Whitelist Settings</source>
-        <translation>Paramètres de la liste blanche</translation>
+        <translation>Налаштування білого списку</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="166"/>
         <source>Finds updates approved by other carriers</source>
-        <translation>Trouver les mises à jour approuvées par d&apos;autres opérateurs</translation>
+        <translation>Пошук доступних оновлень у інших операторів зв'язку</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="194"/>
         <source>Country</source>
-        <translation>Pays</translation>
+        <translation>Країна</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="205"/>
         <source>Carrier</source>
-        <translation>Opérateur</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="219"/>
         <source>Search For</source>
-        <translation>Rechercher pour</translation>
+        <translation>Шукати для</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="257"/>
         <source>Any</source>
-        <translation>Tout</translation>
+        <translation>Любая</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="273"/>
         <source>Variant</source>
-        <translation>Variante</translation>
+        <translation>Варіант</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="290"/>
         <source>Mode</source>
-        <translation>Mode</translation>
+        <translation>Режим</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="291"/>
         <source>Upgrade</source>
-        <translation>Mise à jour</translation>
+        <translation>Оновлення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="291"/>
         <source>Debrick</source>
-        <translation>Debrick</translation>
+        <translation>Відновлення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="388"/>
         <source>Selected: %1 Apps</source>
-        <translation>Sélectionné: %1 Apps</translation>
+        <translation>Вибрано: %1 програм</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="388"/>
         <location filename="../qml/generic/Search.qml" line="389"/>
         <source>All (%1)</source>
-        <translation>Tous (%1)</translation>
+        <translation>Всі (%1)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="389"/>
         <source>Needed: %1 Apps</source>
-        <translation>Requis: %1 Apps</translation>
+        <translation>Необхідно: %1 програм</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="460"/>
         <source>(older)</source>
-        <translation>(plus ancien)</translation>
+        <translation>(стара версія)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="460"/>
         <source>(downloaded)</source>
-        <translation>(téléchargé)</translation>
+        <translation>(завантажено)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="485"/>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="384"/>
         <source>1700.0 MB</source>
-        <translation>1700.0 Мo</translation>
+        <translation>1700.0 МБ</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="408"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Параметри</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="411"/>
         <source>Check All</source>
-        <translation>Tout Cocher</translation>
+        <translation>Відмітити все</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="420"/>
         <source>Check All Needed</source>
-        <translation>Cocher Tout le Nécessaire</translation>
+        <translation>Відмітити всі необхідні</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="429"/>
         <source>Uncheck All</source>
-        <translation>Tout Décocher</translation>
+        <translation>Зняти всі помітки</translation>
     </message>
 </context>
 <context>
@@ -832,32 +832,32 @@
     <message>
         <location filename="../qml/generic/Title.qml" line="46"/>
         <source>Advanced</source>
-        <translation>Avancé</translation>
+        <translation>Розширений режим</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="79"/>
         <source>Device</source>
-        <translation>Appareil</translation>
+        <translation>Пристрій</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="83"/>
         <source>Extract</source>
-        <translation>Extraire</translation>
+        <translation>Витягнення</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="87"/>
         <source>Search</source>
-        <translation>Chercher</translation>
+        <translation>Пошук</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="91"/>
         <source>Backup</source>
-        <translation>Sauvegarde</translation>
+        <translation>Резервне копіювання</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="95"/>
         <source>Install</source>
-        <translation>Installer</translation>
+        <translation>Встановлення</translation>
     </message>
 </context>
 <context>
@@ -865,52 +865,52 @@
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="16"/>
         <source>These tools require a USB connection</source>
-        <translation>Ces outils nécessitent une connexion USB</translation>
+        <translation>Ці інструменти потребують підключення по USB</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="22"/>
         <source>Password:</source>
-        <translation>Mot de passe:</translation>
+        <translation>Пароль:</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="27"/>
         <source>Incorrect</source>
-        <translation>Incorrect</translation>
+        <translation>Невірно</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="47"/>
         <source>Hide Password</source>
-        <translation>Masquer mot de passe</translation>
+        <translation>Приховати пароль</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="47"/>
         <source>Show Password</source>
-        <translation>Afficher le mot de passe</translation>
+        <translation>Показати пароль</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="83"/>
         <source>Detected %1 Blackberry USB device(s) in %2 mode.</source>
-        <translation>%1 appareil(s) USB Blackberry en mode %2.</translation>
+        <translation>Виявлено %1 пристрій(-оїв) Blackberry USB в режиме %2.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="87"/>
         <source>Talking to %1 possible device(s).</source>
-        <translation>En discussion avec %1 appareil(s) possible(s).</translation>
+        <translation>Запит до %1 можливого пристрою.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="56"/>
         <source>There was an issue connecting.</source>
-        <translation>Il y avait un problème de connexion.</translation>
+        <translation>Виникли проблеми з підключенням</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="59"/>
         <source>Try Again</source>
-        <translation>Essayer à Nouveau</translation>
+        <translation>Спробуйте ще раз</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="68"/>
         <source>Searching for USB device</source>
-        <translation>Recherche d&apos;un appareil USB</translation>
+        <translation>Пошук пристроїв USB</translation>
     </message>
 </context>
 <context>
@@ -918,92 +918,92 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="7"/>
         <source>Version Lookup</source>
-        <translation>Recherche de Version</translation>
+        <translation>Пошук версії</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="21"/>
         <source>Stop on:</source>
-        <translation>Arrêt sur:</translation>
+        <translation>Зупинити на:</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="29"/>
         <source>Next Found</source>
-        <translation>Suivant Trouvé</translation>
+        <translation>Доступній версії ПО</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="35"/>
         <source>Next Available Links</source>
-        <translation>Liens suivants disponibles</translation>
+        <translation>Доступному посиланні для завантаження</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="40"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>Ніколи</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="68"/>
         <source>SR: %1</source>
-        <translation>SR: %1</translation>
+        <translation>ПО: %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="68"/>
         <source>OS: %1</source>
-        <translation>OS: %1</translation>
+        <translation>ОС: %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="83"/>
         <source>Servers:</source>
-        <translation>Serveurs:</translation>
+        <translation>Сервери:</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="77"/>
         <source>Production</source>
-        <translation>Production</translation>
+        <translation>Реліз</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="79"/>
         <source>Beta</source>
-        <translation>Bêta</translation>
+        <translation>Бета</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="81"/>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation>Альфа</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="135"/>
         <source>Lookup</source>
-        <translation>Rechercher</translation>
+        <translation>Пошук</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="44"/>
         <source>Stop Scan</source>
-        <translation>Arrêter de chercher</translation>
+        <translation>Зупинити</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="44"/>
         <source>Autoscan</source>
-        <translation>Autobalayage</translation>
+        <translation>Автопошук</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="95"/>
         <source>Grab Public Links</source>
-        <translation>Récupérer le Liens Publics</translation>
+        <translation>Отримати посилання</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="95"/>
         <source>No Links Available</source>
-        <translation>Pas de liens disponibles</translation>
+        <translation>Відсутні доступні посилання</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="144"/>
         <source>History</source>
-        <translation>Historique</translation>
+        <translation>Історія</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="149"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
+        <translation>Приховати</translation>
     </message>
 </context>
 </TS>

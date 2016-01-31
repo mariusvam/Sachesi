@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.0" language="cs_CZ">
 <context>
     <name>Backup</name>
     <message>
         <location filename="../qml/generic/Backup.qml" line="24"/>
         <source>Options</source>
-        <translation>Options</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Backup.qml" line="33"/>
-        <source>Refreshing backup sizes</source>
-        <translation>Mise à jour de la Taille des Sauvegardes</translation>
+        <translation>Nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="45"/>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>Unknown Size</source>
-        <translation>Taille Inconnue</translation>
+        <translation>Neznámá velikost</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="45"/>
@@ -28,68 +23,73 @@
     <message>
         <location filename="../qml/generic/Backup.qml" line="62"/>
         <source>Total:</source>
-        <translation>Total:</translation>
+        <translation>Celkem:</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="70"/>
         <source>Refresh Backup Sizes</source>
-        <translation>Actualiser la Tailles des Sauvegardes</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Backup.qml" line="76"/>
-        <source>Loading backup sizes can sometimes fail. In this situation, you can backup &apos;blind&apos;.</source>
-        <translation>Charger les Tailles de sauvegardes peut parfois échouer. Dans cette situation, vous pouvez sauvegarder en «aveugle».</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Backup.qml" line="105"/>
-        <source>Create Backup Blind</source>
-        <translation>Créer une sauvegarde aveugle</translation>
+        <translation>Obnovit velikost zálohy</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="82"/>
         <source>Choose Backup Filename</source>
-        <translation>Choisissez le Nom du fichier de la Sauvegarde</translation>
+        <translation>Vyberte soubor zálohy</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="94"/>
         <source>Select Restore File</source>
-        <translation>Sélectionnez le fichier à restaurer</translation>
+        <translation>Vyberte soubor obnovy</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="105"/>
         <source>Create Backup</source>
-        <translation>Créer une sauvegarde</translation>
+        <translation>Vytvořit zálohu</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="110"/>
         <source>Restore Backup</source>
-        <translation>Restaurer la sauvegarde</translation>
+        <translation>Obnovit zálohu</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="90"/>
         <location filename="../qml/generic/Backup.qml" line="101"/>
         <source>Blackberry Backup (*.bbb)</source>
-        <translation>Sauvegarde Blackberry (*.bbb)</translation>
+        <translation>Blackberry záloha (*.bbb)</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Backup.qml" line="33"/>
+        <source>Refreshing backup sizes</source>
+        <translation>Obnovit velikosti záloh</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Backup.qml" line="76"/>
+        <source>Loading backup sizes can sometimes fail. In this situation, you can backup &apos;blind&apos;.</source>
+        <translation>Nahrání velké zálohy může někdy selhat. V tom případě použijte zálohu &apos;blind&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Backup.qml" line="105"/>
+        <source>Create Backup Blind</source>
+        <translation>Vytvořit zálohu Blind</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="117"/>
         <source>Your device needs a Blackberry ID to perform backups or restores!</source>
-        <translation>Votre appareil a besoin d'un identifiant BlackBerry ID pour effectuer des sauvegardes ou restaurations!</translation>
+        <translation>Vaše zařízení potřebuje zadat Blackberry ID pro vytvoření zálohy nebo obnovy!</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="121"/>
         <source>Please note that backups can take a long time, depending on your device data.</source>
-        <translation>S'il vous plaît veuillez noter que les sauvegardes peuvent prendre un certain temps, en fonction des données de votre appareil.</translation>
+        <translation>Prosím berte na vědomí že vytvoření zálohy může trvat delší dobu v závislosti na velikosti dat.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="136"/>
         <source>Creating Backup (%1%)</source>
-        <translation>Création d'une sauvegarde (%1%)</translation>
+        <translation>Vytváření zálohy (%1%)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Backup.qml" line="136"/>
         <source>Restoring Backup (%1%)</source>
-        <translation>Restauration d'une sauvegarde (%1%)</translation>
+        <translation>Obnovování zálohy (%1%)</translation>
     </message>
 </context>
 <context>
@@ -97,12 +97,12 @@
     <message>
         <location filename="../qml/generic/Boot.qml" line="11"/>
         <source>Boot Communication</source>
-        <translation>Communication de Démarrage (Boot)</translation>
+        <translation>Startovací komunikace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="18"/>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>Informace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="22"/>
@@ -112,32 +112,32 @@
     <message>
         <location filename="../qml/generic/Boot.qml" line="26"/>
         <source>Nuke</source>
-        <translation>Nuke</translation>
+        <translation>Zničit</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="30"/>
         <source>Debug Mode</source>
-        <translation>Mode de Débogage</translation>
+        <translation>Ladící mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="36"/>
         <source>Reboot after</source>
-        <translation>Redémarrer après</translation>
+        <translation>Restart po</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="43"/>
         <source>Connecting to bootrom</source>
-        <translation>Connexion au secteur de démarrage (bootrom)</translation>
+        <translation>Připojování do bootrom</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="50"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Zrušit</translation>
     </message>
     <message>
         <location filename="../qml/generic/Boot.qml" line="55"/>
         <source>Detected devices:</source>
-        <translation>Périphériques détectés:</translation>
+        <translation>Detekované zařízení:</translation>
     </message>
 </context>
 <context>
@@ -145,7 +145,7 @@
     <message>
         <location filename="../qml/generic/UI/CircleProgress.qml" line="117"/>
         <source>%1 of %2</source>
-        <translation>%1 sur %2</translation>
+        <translation>%1 z %2</translation>
     </message>
 </context>
 <context>
@@ -153,32 +153,32 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="12"/>
         <source>Device Information</source>
-        <translation>Informations sur le périphérique</translation>
+        <translation>Informace o zařízení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="18"/>
         <source>Tools</source>
-        <translation>Outils</translation>
+        <translation>Nástroje</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="22"/>
         <source>Wipe</source>
-        <translation>Nettoyage de sécurité</translation>
+        <translation>Vymazání</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="27"/>
         <source>Factory Reset</source>
-        <translation>Réinitialisation sortie d'usine</translation>
+        <translation>Tovární nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="32"/>
         <source>Reboot</source>
-        <translation>Redémarrage</translation>
+        <translation>Reboot</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="44"/>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>Jméno</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="49"/>
@@ -197,12 +197,12 @@
         <location filename="../qml/generic/Device.qml" line="164"/>
         <location filename="../qml/generic/Device.qml" line="184"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation>Neznámé</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="52"/>
         <source>HW Name</source>
-        <translation>Nom du Matériel</translation>
+        <translation>HW jméno</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="61"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="76"/>
         <source>BSN</source>
-        <translation>Numéro de Série BSN</translation>
+        <translation>BSN</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="90"/>
@@ -232,50 +232,50 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="106"/>
         <source>HW</source>
-        <translation>Matériel</translation>
+        <translation>HW</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="114"/>
         <source>Restrictions</source>
-        <translation>Restrictions</translation>
+        <translation>Omezení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="118"/>
         <location filename="../qml/generic/Device.qml" line="150"/>
         <source>None</source>
-        <translation>Aucun</translation>
+        <translation>Nic</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="122"/>
         <source>Setup Complete</source>
-        <translation>Configuration terminée</translation>
+        <translation>Nastavení kompletní</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="126"/>
         <location filename="../qml/generic/Device.qml" line="134"/>
         <source>True</source>
-        <translation>Vrai</translation>
+        <translation>Ano</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="126"/>
         <location filename="../qml/generic/Device.qml" line="134"/>
         <source>False</source>
-        <translation>Faux</translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="130"/>
         <source>Developer Mode</source>
-        <translation>Mode développeur</translation>
+        <translation>Developerský mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="138"/>
         <source>Battery</source>
-        <translation>Batterie</translation>
+        <translation>Baterie</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="146"/>
         <source>Connection</source>
-        <translation>Connexion</translation>
+        <translation>Připojení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="150"/>
@@ -285,28 +285,28 @@
     <message>
         <location filename="../qml/generic/Device.qml" line="154"/>
         <source>Refurbished Date</source>
-        <translation>Date de remise au propre</translation>
+        <translation>Datum repasování</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="160"/>
         <location filename="../qml/generic/Device.qml" line="163"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>Nikdy</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="165"/>
         <source>Clear</source>
-        <translation>Effacer</translation>
+        <translation>Vyčištěno</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="165"/>
         <source>Set</source>
-        <translation>Valider</translation>
+        <translation>Nastavit</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="180"/>
         <source>Free Disk Space</source>
-        <translation>Espace disque disponible</translation>
+        <translation>Volné místo na disku</translation>
     </message>
     <message>
         <location filename="../qml/generic/Device.qml" line="184"/>
@@ -319,12 +319,12 @@
     <message>
         <location filename="../qml/generic/Downloader.qml" line="45"/>
         <source>#1. Start RTAS (Requires OS10.2)</source>
-        <translation>#1. Démarrer RTAS ( Nécessite OS10.2 )</translation>
+        <translation>#1. Start RTAS (Minimálně OS10.2)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Downloader.qml" line="49"/>
         <source>Start RTAS</source>
-        <translation>Démarrer RTAS</translation>
+        <translation>Start RTAS</translation>
     </message>
 </context>
 <context>
@@ -332,24 +332,34 @@
     <message>
         <location filename="../qml/generic/Extract.qml" line="46"/>
         <source>Percentages are not entirely accurate for QNX6 files.</source>
-        <translation>Les pourcentages ne sont pas tout à fait exacts pour les fichiers QNX6.</translation>
+        <translation>Procenta nejsou zcela přesná pro QNX6 soubory.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="55"/>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Zrušit</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="78"/>
+        <source>Signed Images</source>
+        <translation>Podepsané soubory</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="108"/>
         <location filename="../qml/generic/Extract.qml" line="119"/>
         <source>Extract Signed</source>
-        <translation>Extraire Fichiers Signés</translation>
+        <translation>Extrahovat podepsané</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="115"/>
+        <source>Signed Containers</source>
+        <translation>Podepsané kontejnery</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="126"/>
         <location filename="../qml/generic/Extract.qml" line="221"/>
         <source>User</source>
-        <translation>Utilisateur</translation>
+        <translation>Uživatel</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="132"/>
@@ -369,47 +379,77 @@
     <message>
         <location filename="../qml/generic/Extract.qml" line="71"/>
         <source>Create Autoloader</source>
-        <translation>Créer un Lanceur (Autoloader)</translation>
+        <translation>Vytvořit Autoloader</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="27"/>
+        <source>Splitting Autoloader</source>
+        <translation>Rozdělení Autoloaderu</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="28"/>
+        <source>Combining Autoloader</source>
+        <translation>Kombinace Autoloaderu</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="29"/>
+        <source>Extracting Image</source>
+        <translation>Extrahovat soubory</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="30"/>
+        <source>Extracting Apps</source>
+        <translation>Extrahovat Aplikace</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="31"/>
+        <source>Fetching required files</source>
+        <translation>Načíst požadované soubory</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Extract.qml" line="32"/>
+        <source>Waiting</source>
+        <translation>Počkat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="81"/>
         <source>Create from Folder</source>
-        <translation>Créer à partir du Dossier</translation>
+        <translation>Vytvořit ze složky</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="89"/>
         <source>Create from Files</source>
-        <translation>Créer à Partir des Fichiers</translation>
+        <translation>Vytvořit ze souborů</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="99"/>
         <source>Create Autoloader .exe from .signed images</source>
-        <translation>Créer un lanceur (Autoloader) .exe à partir d'images .signed</translation>
+        <translation>Vytvořit Autoloader .exe z podepsaných souborů</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="63"/>
         <source>Extraction Tools</source>
-        <translation>Outils d&apos;Extraction</translation>
+        <translation>Extrahovací nástroje</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="154"/>
         <source>Split .signed from autoloader .exe, .bar or .zip</source>
-        <translation>Scinder le .signed venant du Lanceur (Autoloader) .exe, .bar ou .zip</translation>
+        <translation>Rozdělit podepsané soubory z autoloaderu .exe, .bar nebo .zip</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="166"/>
         <source>Extracts all bar archives from a debrick/repair .signed</source>
-        <translation>Extraction de toutes les archives .bar à partir d'un fichier debrick/repair .signed</translation>
+        <translation>Extrahovat všechny bar soubory z debrick/repair .signed</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="170"/>
         <source>Note: To extract apps from a .bar, please split it first (above)</source>
-        <translation>Remarque: Pour extraire des applications à partir d&apos;un .bar, s'il vous plaît veuillez le scinder d'abord(ci-dessus)</translation>
+        <translation>Poznámka: Chcete-li extrahovat aplikace ze .bar, prosím nejprve rozdělte (nahoře)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="209"/>
         <source>Dump Contents</source>
-        <translation>Vider le Contenu</translation>
+        <translation>Vypsat obsah</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="216"/>
@@ -419,67 +459,27 @@
     <message>
         <location filename="../qml/generic/Extract.qml" line="226"/>
         <source>Boot</source>
-        <translation>Démarrage</translation>
+        <translation>Boot</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="230"/>
         <source>Dump all file contents</source>
-        <translation>Vider tous le contenus des fichiers</translation>
+        <translation>Vypsat všechny soubory</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="179"/>
         <source>Extract Image</source>
-        <translation>Extraire l'Image</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="27"/>
-        <source>Splitting Autoloader</source>
-        <translation>Découpage du Lanceur (Autoloader)</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="28"/>
-        <source>Combining Autoloader</source>
-        <translation>Combinaison du Lanceur (Autoloader)</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="29"/>
-        <source>Extracting Image</source>
-        <translation>Extraction de l'image</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="30"/>
-        <source>Extracting Apps</source>
-        <translation>Extraction des Apps</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="31"/>
-        <source>Fetching required files</source>
-        <translation>Téléchargement des fichiers requis</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="32"/>
-        <source>Waiting</source>
-        <translation>Attente</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="78"/>
-        <source>Signed Images</source>
-        <translation>Images signées</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Extract.qml" line="115"/>
-        <source>Signed Containers</source>
-        <translation>Conteneurs signés</translation>
+        <translation>Extrahovat obrázky</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="199"/>
         <source>Extracts filesystem image</source>
-        <translation>Extrait d&apos;image du système de fichiers</translation>
+        <translation>Extrahovat systémové soubory</translation>
     </message>
     <message>
         <location filename="../qml/generic/Extract.qml" line="161"/>
         <source>Extract Apps</source>
-        <translation>Extrait les Applications</translation>
+        <translation>Extrahovat aplikace</translation>
     </message>
 </context>
 <context>
@@ -487,99 +487,99 @@
     <message>
         <location filename="../qml/generic/Installer.qml" line="34"/>
         <source>Please be patient while the installation zip is extracted.</source>
-        <translation>S'il vous plaît soyez patient pendant que le zip d&apos;installation est extrait.</translation>
+        <translation>Prosím buďte trpeliví, zatím se extrahuje instalační zip.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="47"/>
         <source>Firmware Update</source>
-        <translation>Mise à jour du Firmware</translation>
+        <translation>Aktualizace firmware</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="47"/>
         <source>Install</source>
-        <translation>Installation</translation>
+        <translation>Instalace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="74"/>
         <source>To install &lt;b&gt;.bar&lt;/b&gt; files such as applications or firmware, you can just &lt;b&gt;Drag and Drop&lt;/b&gt; to this page. Otherwise, select the options below:</source>
-        <translation>Pour installer des &lt;b&gt;.bar fichiers&lt;/b&gt; tels que des applications ou firmware, vous pouvez simplement &lt;b&gt;glisser-déposer&lt;/b&gt;. Sinon, sélectionnez les options ci-dessous:</translation>
+        <translation>Chcete-li nainstalovat &lt;b&gt; .bar &lt;/b&gt; soubory, jako je například aplikace nebo firmware, můžete je &lt;b&gt; Vzít a pustit &lt;/b&gt; na této stránce. V opačném případě nastavte níže:</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="82"/>
         <source>Install applications to device</source>
-        <translation>Installer les applications sur l'appareil</translation>
+        <translation>Instalovat apligace do zařízení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="91"/>
         <source>Blackberry Installable (*.bar)</source>
-        <translation>Fichier Blackberry Installable (*.bar)</translation>
+        <translation>Blackberry instalační soubor (*.bar)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="94"/>
         <source>Install Folder</source>
-        <translation>Dossier d&apos;Installation</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Installer.qml" line="99"/>
-        <location filename="../qml/generic/Installer.qml" line="113"/>
-        <source>Error: Your device can only process one task at a time. Please wait for backup/restore process to complete.&lt;br&gt;</source>
-        <translation>Erreur: Votre appareil ne peut traiter qu&apos;une seule tâche à la fois. S&apos;il vous plaît attendre pour la sauvegarde / processus de restauration à compléter.&lt;br&gt;</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Installer.qml" line="101"/>
-        <source>Select Folder</source>
-        <translation>Sélectionner un Dossier</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Installer.qml" line="108"/>
-        <source>Install Files</source>
-        <translation>Installer les Fichiers</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/Installer.qml" line="115"/>
-        <source>Select Files</source>
-        <translation>Sélectionnez les Fichiers</translation>
+        <translation>Instalační složky</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="20"/>
         <source>View Install (%1)</source>
-        <translation>Voir l'Installation (%1)</translation>
+        <translation>Zobrazit instalaci (%1)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Sending %1</source>
-        <translation>Envoi de %1</translation>
+        <translation>Odesílání %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Installing %1</source>
-        <translation>Installation de %1</translation>
+        <translation>Instalování %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="57"/>
         <source>Sent %1</source>
-        <translation>%1 Envoyé</translation>
+        <translation>Odesílání %1</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="97"/>
         <location filename="../qml/generic/Installer.qml" line="111"/>
         <source>Error: Your device can only process one task at a time. Please wait for previous install to complete.&lt;br&gt;</source>
-        <translation>Erreur: Votre appareil ne peut traiter une tâche à la fois. Se il vous plaît attendre l&apos;installation précédente à compléter. &lt;br&gt;</translation>
+        <translation>Chyba: Vaše zařízení může zpracovávat pouze jednu úlohu. Prosím počkejte na dokončení předchozí instalace.&lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Installer.qml" line="99"/>
+        <location filename="../qml/generic/Installer.qml" line="113"/>
+        <source>Error: Your device can only process one task at a time. Please wait for backup/restore process to complete.&lt;br&gt;</source>
+        <translation>Chyba: Vaše zařízení může zpracovávat pouze jednu úlohu. Prosím počkejte na dokončení předchozí zálohy/obnovy.&lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Installer.qml" line="101"/>
+        <source>Select Folder</source>
+        <translation>Vybrat složku</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Installer.qml" line="108"/>
+        <source>Install Files</source>
+        <translation>Instalovat soubory</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/Installer.qml" line="115"/>
+        <source>Select Files</source>
+        <translation>Vybrat soubory</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="125"/>
         <source>Only install newer apps</source>
-        <translation>N'iInstaller uniquement que les applications avec une version plus récente</translation>
+        <translation>Instalovat pouze nové aplikace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="139"/>
         <source>Refresh</source>
-        <translation>Rafraîchir</translation>
+        <translation>Aktualizovat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="145"/>
         <source>Your Applications</source>
-        <translation>Vos Applications</translation>
+        <translation>Vaše aplikace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="233"/>
@@ -589,32 +589,32 @@
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Use &apos;Refresh&apos; to update list</source>
-        <translation>Utilisez &apos;Rafraîchir&apos; pour mettre à jour la liste</translation>
+        <translation>Stiskněte &apos;Aktualizovat&apos; pro obnovení seznamu</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Your device has not completed setup</source>
-        <translation>Votre appareil n&apos;a pas terminé la configuration</translation>
+        <translation>Ve vašem zařízení není dokončeno nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="164"/>
         <source>Device disconnected</source>
-        <translation>Appareil déconnecté</translation>
+        <translation>Zařízení odpojené</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="177"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="179"/>
         <source>Uninstall Marked</source>
-        <translation>Désinstaller la sélection</translation>
+        <translation>Odinstalovat označené</translation>
     </message>
     <message>
         <location filename="../qml/generic/Installer.qml" line="186"/>
         <source>Show Installed Apps</source>
-        <translation>Voir les Apps Installées</translation>
+        <translation>Zobrazit nainstalované aplikace</translation>
     </message>
 </context>
 <context>
@@ -622,7 +622,7 @@
     <message>
         <location filename="../src/search/scanner.h" line="68"/>
         <source>No Release</source>
-        <translation>Pas de numéro de version</translation>
+        <translation>Zádná verze není k dispozici</translation>
     </message>
 </context>
 <context>
@@ -631,23 +631,23 @@
         <location filename="../qml/generic/Search.qml" line="23"/>
         <location filename="../qml/generic/Search.qml" line="125"/>
         <source>Download</source>
-        <translation>Télécharger</translation>
+        <translation>Stáhnout</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="38"/>
         <location filename="../qml/generic/Search.qml" line="135"/>
         <source>Cancel Download</source>
-        <translation>Annuler le Téléchargement</translation>
+        <translation>Zrušit stahování</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="53"/>
         <source>Searching...</source>
-        <translation>Recherche...</translation>
+        <translation>Vyhledávání...</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="53"/>
         <source>Search</source>
-        <translation>Rechercher</translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="61"/>
@@ -657,113 +657,113 @@
     <message>
         <location filename="../qml/generic/Search.qml" line="64"/>
         <source>Version Lookup</source>
-        <translation>Recherche de Version</translation>
+        <translation>Najít verzi</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="76"/>
         <source>Success. No updates were available.</source>
-        <translation>Succès. Aucune mise à jour sont disponibles.</translation>
+        <translation>Hotovo. Žádná aktualizace není dostupná.</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="85"/>
         <source>Download For</source>
-        <translation>Télécharger pour</translation>
+        <translation>Stáhnout pro</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="88"/>
         <location filename="../qml/generic/Search.qml" line="224"/>
         <source>Device</source>
-        <translation>Appareil</translation>
+        <translation>Zařízení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="94"/>
         <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <translation>Neznámé</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="100"/>
         <source>Connected</source>
-        <translation>Connecté</translation>
+        <translation>Připojeno</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="100"/>
         <source>As Searched</source>
-        <translation>Comme recherché</translation>
+        <translation>Hledaný</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="118"/>
         <source>Grab Links</source>
-        <translation>Télécharger les Liens</translation>
+        <translation>Zobrazit odkazy</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="125"/>
         <source>Verifying</source>
-        <translation>Vérification</translation>
+        <translation>Ověřit</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="74"/>
         <source>Server did not respond as expected [%1].</source>
-        <translation>Le serveur n&apos;a pas répondu comme prévu [%1].</translation>
+        <translation>Server neodpověděl jak se očekávalo [%1].</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="130"/>
         <source>View Download (%1%)</source>
-        <translation>Voir Téléchargement (%1%)</translation>
+        <translation>Zobrazit stahování (%1%)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="150"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
+        <translation>Skrýt</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="150"/>
         <source>Show Settings</source>
-        <translation>Afficher les paramètres</translation>
+        <translation>Zobrazit nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="161"/>
         <source>Whitelist Settings</source>
-        <translation>Paramètres de la liste blanche</translation>
+        <translation>Whitelist nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="166"/>
         <source>Finds updates approved by other carriers</source>
-        <translation>Trouver les mises à jour approuvées par d&apos;autres opérateurs</translation>
+        <translation>Najít aktualizace schválené jiným operátorem</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="194"/>
         <source>Country</source>
-        <translation>Pays</translation>
+        <translation>Země</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="205"/>
         <source>Carrier</source>
-        <translation>Opérateur</translation>
+        <translation>Operátor</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="219"/>
         <source>Search For</source>
-        <translation>Rechercher pour</translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="257"/>
         <source>Any</source>
-        <translation>Tout</translation>
+        <translation>Jakýkoli</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="273"/>
         <source>Variant</source>
-        <translation>Variante</translation>
+        <translation>Varianta</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="290"/>
         <source>Mode</source>
-        <translation>Mode</translation>
+        <translation>Mód</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="291"/>
         <source>Upgrade</source>
-        <translation>Mise à jour</translation>
+        <translation>Aktualizace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="291"/>
@@ -773,28 +773,28 @@
     <message>
         <location filename="../qml/generic/Search.qml" line="388"/>
         <source>Selected: %1 Apps</source>
-        <translation>Sélectionné: %1 Apps</translation>
+        <translation>Vybrané: %1 Aplikace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="388"/>
         <location filename="../qml/generic/Search.qml" line="389"/>
         <source>All (%1)</source>
-        <translation>Tous (%1)</translation>
+        <translation>Všel (%1)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="389"/>
         <source>Needed: %1 Apps</source>
-        <translation>Requis: %1 Apps</translation>
+        <translation>Požadované: %1 Aplikace</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="460"/>
         <source>(older)</source>
-        <translation>(plus ancien)</translation>
+        <translation>(starší)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="460"/>
         <source>(downloaded)</source>
-        <translation>(téléchargé)</translation>
+        <translation>(stažené)</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="485"/>
@@ -804,27 +804,27 @@
     <message>
         <location filename="../qml/generic/Search.qml" line="384"/>
         <source>1700.0 MB</source>
-        <translation>1700.0 Мo</translation>
+        <translation>1700.0 MB</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="408"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Nastavení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="411"/>
         <source>Check All</source>
-        <translation>Tout Cocher</translation>
+        <translation>Vybrat vše</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="420"/>
         <source>Check All Needed</source>
-        <translation>Cocher Tout le Nécessaire</translation>
+        <translation>Vybrat vše požadované</translation>
     </message>
     <message>
         <location filename="../qml/generic/Search.qml" line="429"/>
         <source>Uncheck All</source>
-        <translation>Tout Décocher</translation>
+        <translation>Zrušit výběr</translation>
     </message>
 </context>
 <context>
@@ -832,32 +832,32 @@
     <message>
         <location filename="../qml/generic/Title.qml" line="46"/>
         <source>Advanced</source>
-        <translation>Avancé</translation>
+        <translation>Rozšířené</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="79"/>
         <source>Device</source>
-        <translation>Appareil</translation>
+        <translation>Zařízení</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="83"/>
         <source>Extract</source>
-        <translation>Extraire</translation>
+        <translation>Extrahovat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="87"/>
         <source>Search</source>
-        <translation>Chercher</translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="91"/>
         <source>Backup</source>
-        <translation>Sauvegarde</translation>
+        <translation>Zálohovat</translation>
     </message>
     <message>
         <location filename="../qml/generic/Title.qml" line="95"/>
         <source>Install</source>
-        <translation>Installer</translation>
+        <translation>Instalovat</translation>
     </message>
 </context>
 <context>
@@ -865,52 +865,52 @@
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="16"/>
         <source>These tools require a USB connection</source>
-        <translation>Ces outils nécessitent une connexion USB</translation>
+        <translation>Tento nástroj vyžaduje USB spojení</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="22"/>
         <source>Password:</source>
-        <translation>Mot de passe:</translation>
+        <translation>Heslo:</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="27"/>
         <source>Incorrect</source>
-        <translation>Incorrect</translation>
+        <translation>Nesprávné</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="47"/>
         <source>Hide Password</source>
-        <translation>Masquer mot de passe</translation>
+        <translation>Skrýt heslo</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="47"/>
         <source>Show Password</source>
-        <translation>Afficher le mot de passe</translation>
+        <translation>Zobrazit heslo</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="83"/>
         <source>Detected %1 Blackberry USB device(s) in %2 mode.</source>
-        <translation>%1 appareil(s) USB Blackberry en mode %2.</translation>
+        <translation>Detekováno %1 Blackberry USB zařízení v %2 módu.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="87"/>
         <source>Talking to %1 possible device(s).</source>
-        <translation>En discussion avec %1 appareil(s) possible(s).</translation>
+        <translation>Komunikace s %1 možným zařízením.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="56"/>
         <source>There was an issue connecting.</source>
-        <translation>Il y avait un problème de connexion.</translation>
+        <translation>Zjištěný problém s připojením.</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="59"/>
         <source>Try Again</source>
-        <translation>Essayer à Nouveau</translation>
+        <translation>Zkuste znovu</translation>
     </message>
     <message>
         <location filename="../qml/generic/USBConnect.qml" line="68"/>
         <source>Searching for USB device</source>
-        <translation>Recherche d&apos;un appareil USB</translation>
+        <translation>Vyhledávání zařízení připojené přes USB</translation>
     </message>
 </context>
 <context>
@@ -918,27 +918,57 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="7"/>
         <source>Version Lookup</source>
-        <translation>Recherche de Version</translation>
+        <translation>Hledat verzi</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="21"/>
         <source>Stop on:</source>
-        <translation>Arrêt sur:</translation>
+        <translation>Zastavit na:</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="29"/>
         <source>Next Found</source>
-        <translation>Suivant Trouvé</translation>
+        <translation>Další nalezené</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="35"/>
         <source>Next Available Links</source>
-        <translation>Liens suivants disponibles</translation>
+        <translation>Další dostupné odkazy</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="40"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>Nikdy</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/VersionLookup.qml" line="77"/>
+        <source>Production</source>
+        <translation>Produkční</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/VersionLookup.qml" line="79"/>
+        <source>Beta</source>
+        <translation>Beta</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/VersionLookup.qml" line="81"/>
+        <source>Alpha</source>
+        <translation>Alfa</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/VersionLookup.qml" line="135"/>
+        <source>Lookup</source>
+        <translation>Vyhledat</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/VersionLookup.qml" line="44"/>
+        <source>Stop Scan</source>
+        <translation>Zastavit scanování</translation>
+    </message>
+    <message>
+        <location filename="../qml/generic/VersionLookup.qml" line="44"/>
+        <source>Autoscan</source>
+        <translation>Automatické hledání</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="68"/>
@@ -953,57 +983,27 @@
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="83"/>
         <source>Servers:</source>
-        <translation>Serveurs:</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/VersionLookup.qml" line="77"/>
-        <source>Production</source>
-        <translation>Production</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/VersionLookup.qml" line="79"/>
-        <source>Beta</source>
-        <translation>Bêta</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/VersionLookup.qml" line="81"/>
-        <source>Alpha</source>
-        <translation>Alpha</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/VersionLookup.qml" line="135"/>
-        <source>Lookup</source>
-        <translation>Rechercher</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/VersionLookup.qml" line="44"/>
-        <source>Stop Scan</source>
-        <translation>Arrêter de chercher</translation>
-    </message>
-    <message>
-        <location filename="../qml/generic/VersionLookup.qml" line="44"/>
-        <source>Autoscan</source>
-        <translation>Autobalayage</translation>
+        <translation>Servery:</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="95"/>
         <source>Grab Public Links</source>
-        <translation>Récupérer le Liens Publics</translation>
+        <translation>Zobrazit veřejné odkazy</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="95"/>
         <source>No Links Available</source>
-        <translation>Pas de liens disponibles</translation>
+        <translation>Odkazy nejsou dostupné</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="144"/>
         <source>History</source>
-        <translation>Historique</translation>
+        <translation>Historie</translation>
     </message>
     <message>
         <location filename="../qml/generic/VersionLookup.qml" line="149"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
+        <translation>Skrýt</translation>
     </message>
 </context>
 </TS>

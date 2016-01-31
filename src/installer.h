@@ -86,6 +86,7 @@ class InstallNet : public QObject {
     Q_PROPERTY(DeviceInfo* device       MEMBER device                                     NOTIFY deviceChanged)
     Q_PROPERTY(QQmlListProperty<Apps> appList READ appList                                NOTIFY appListChanged)
     Q_PROPERTY(int appCount READ appCount NOTIFY appListChanged)
+    Q_PROPERTY(bool    hasLog READ hasLog NOTIFY hasLogChanged)
 
     Q_PROPERTY(QString backStatus READ backStatus NOTIFY backStatusChanged)
     Q_PROPERTY(int     backProgress READ backProgress NOTIFY backCurProgressChanged)
@@ -93,7 +94,9 @@ class InstallNet : public QObject {
 
     Q_PROPERTY(int     backMethods READ backMethods NOTIFY backMethodsChanged)
     Q_PROPERTY(QStringList backNames READ backNames NOTIFY backMethodsChanged)
-    Q_PROPERTY(QList<qreal> backSizes READ backSizes NOTIFY backMethodsChanged)
+
+    Q_PROPERTY(QList<double> backSizes READ backSizes NOTIFY backMethodsChanged)
+    Q_PROPERTY(QQmlListProperty<Apps> backAppList READ backAppList                                NOTIFY backMethodsChanged)
 public:
     InstallNet(QObject* parent = 0);
     ~InstallNet();
@@ -113,7 +116,10 @@ public:
     Q_INVOKABLE void getPIN();
     Q_INVOKABLE void setActionProperty(QString name, QString value);
     Q_INVOKABLE void backupQuery();
+    Q_INVOKABLE qint64 changeBackAppMode(QString type);
     Q_INVOKABLE void exportInstalled();
+    Q_INVOKABLE void openLog();
+    Q_INVOKABLE bool hasLog();
     Q_INVOKABLE QString appDeltaMsg();
     void requestConfigure();
     void requestChallenge();
@@ -126,6 +132,7 @@ public:
     QString password() const;
     int dgMaxPos() const;
     QQmlListProperty<Apps> appList();
+    QQmlListProperty<Apps> backAppList();
     QList<Apps*> appQList() { return _appList; }
     int appCount() const { return _appList.count(); }
     BackupInfo* back();
@@ -181,7 +188,9 @@ signals:
     void extractInstallZipChanged();
     void allowDowngradesChanged();
     void appListChanged();
+    void backAppListChanged();
     void deviceChanged();
+    void hasLogChanged();
 private slots:
     bool checkLogin();
     void login();
@@ -222,6 +231,7 @@ private:
     SslNetworkAccessManager* manager;
     QNetworkReply *reply;
     QNetworkCookieJar* cookieJar;
+    QTemporaryFile* logFile;
     QFile* compressedFile;
     QStringList _firmwareNames;
     QStringList _firmwarePaths;
